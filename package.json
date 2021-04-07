@@ -1,0 +1,25 @@
+{
+  "name": "eduonixmeancourse-project6",
+  "version": "1.0.0",
+  "description": "A Rest-API project for a Library Management System using NodeJS, Express and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heiastart/EduonixMEANcourse-project6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heiastart/EduonixMEANcourse-project6/issues"
+  },
+  "homepage": "https://github.com/heiastart/EduonixMEANcourse-project6#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  }
+}
