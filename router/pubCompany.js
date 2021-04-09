@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-var pub_company_controller = require('../controller/pub_company');
+var pub_company_controller = require('../controller/pubCompany');
 
 // Routes for the app on url root/pub_company/<routes from here>
 router.get('/all', pub_company_controller.pub_company_fetch_all);

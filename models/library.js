@@ -11,4 +11,4 @@ const LibrarySchema = new mongoose.Schema({
 });
 
 
-module.exports = mongoose.model('Author', AuthorSchema);
+module.exports = mongoose.model('Library', LibrarySchema);
